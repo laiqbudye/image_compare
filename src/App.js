@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ImageGrid from './components/ImageGrid';
+import Table from './components/Table';
 import './App.css';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
           />
         })}
       </div>
+      <Table dataObj={tableData} />
     </div>
   );
 }
